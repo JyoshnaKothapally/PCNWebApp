@@ -1,0 +1,48 @@
+﻿@using System.Linq
+@model PCNApi.Models.Product
+@{
+    ViewData["Title"] = "Product details";
+}
+
+<div class="row text">
+    <div class="col-md-8 offset-2">
+        <p><h1>Details for @Model.ProductName</h1></p>
+        <div class="row">
+            <div class="col-md-8 offset-2">
+
+                <div class="mb-3">
+                    <label asp-for="ProductName" class="control-label"></label>
+                    <input asp-for="ProductName" class="form-control" readonly />
+                    <span asp-validation-for="ProductName" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Brand.BrandName" class="control-label"></label>
+                    <input asp-for="Brand.BrandName" class="form-control" readonly />
+                    <span asp-validation-for="Brand.BrandName" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Category.CategoryName" class="control-label"></label>
+                    <input asp-for="Category.CategoryName" class="form-control" readonly />
+                    <span asp-validation-for="Category.CategoryName" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="ModelYear" class="control-label"></label>
+                    <input asp-for="ModelYear" class="form-control" readonly />
+                    <span asp-validation-for="ModelYear" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="ListPrice" class="control-label"></label>
+                    <input asp-for="ListPrice" class="form-control" readonly />
+                    <span asp-validation-for="ListPrice" class="text-danger"></span>
+                </div>
+                
+
+                <div class="mb-3">
+                    <a class="btn btn-outline-success float-end" asp-action="Edit" asp-route-id="@Model.ProductId">Edit</a>
+                    <a class="btn btn-outline-secondary" asp-action="Index">Show All</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

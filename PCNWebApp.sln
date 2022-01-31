@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCNApi", "PCNApi\PCNApi.csproj", "{52768D56-F8C7-499F-B640-4015604E572A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCNWebAppMVC", "PCNWebAppMVC\PCNWebAppMVC.csproj", "{6EDB70CB-35EE-4A74-9093-AAE4037A2931}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52768D56-F8C7-499F-B640-4015604E572A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52768D56-F8C7-499F-B640-4015604E572A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52768D56-F8C7-499F-B640-4015604E572A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52768D56-F8C7-499F-B640-4015604E572A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EDB70CB-35EE-4A74-9093-AAE4037A2931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EDB70CB-35EE-4A74-9093-AAE4037A2931}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EDB70CB-35EE-4A74-9093-AAE4037A2931}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EDB70CB-35EE-4A74-9093-AAE4037A2931}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74787AA8-EE5A-4F2A-8909-92AAF1F9919E}
+	EndGlobalSection
+EndGlobal
